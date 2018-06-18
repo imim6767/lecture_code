@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <h1 class="display-4"><%= @blogs.title %></h1>
+  <p class="lead"><%= @blogs.content %></p>
+  <img src="<%= @blogs.image_url %>">
+  <hr class="my-4">
+  <p><%= @blogs.tag %></p>
+  <p>작성일자 : <%= @blogs.created_at %></p>
+  <a class="btn btn-primary btn-lg" href="/blogs/edit/<%= @blogs.id %>" role="button">수정</a>
+  <a class="btn btn-primary btn-lg" href="/blogs/destroy/<%= @blogs.id %>" role="button">삭제</a><br>
+  <a class="btn btn-primary btn-lg" href="/blogs" role="button">돌아가기</a>
+  
+</div>
+
+

@@ -1,0 +1,22 @@
+<h1>게시판입니다.</h1>
+<form action="/create">
+    제목 : <input type="text" name="title" placeholder="제목을 입력해주세요."><br>
+    내용 : <input type="text" name="content" placeholder="내용을 입력해주세요."><br>
+    <input type="submit">
+</form>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>제목</th>
+        <th>작성일자</th>
+    </tr>
+    
+    <% @posts.each do |p| %>
+    <tr>
+        <td><%= p.id %></td>
+        <td><a href="/show/<%= p.id %>"><%= p.title %></a></td>
+        <td><%= p.created_at %></td>
+    </tr>
+    <% end %>
+
+</table>
