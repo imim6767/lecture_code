@@ -1,18 +1,18 @@
-# 수업시간 학습 코드
 
-수업시간에 같이 쓴 코드
+     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
+    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
+    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
+    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
+     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
+    ----------------------------------------------------------------- 
 
-## 1. 코드목록
-```ruby
 
-git add .
-git commit -m "asdf"
-git push -u origin master
+Hi there! Welcome to Cloud9 IDE!
 
-```
+To get you started, create some files, play with the terminal,
+or visit http://docs.c9.io for our documentation.
+If you want, you can also go watch some training videos at
+http://www.youtube.com/user/c9ide.
 
-```ruby
-
-import 'sinatra'
-
-```
+Happy coding!
+The Cloud9 IDE team
